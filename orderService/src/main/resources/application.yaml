@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/OrderService
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+user : /user
+AddUser : /adduser
+
+product: product
+AddProduct: addProduct
+viewProduct: getProducts
+
+order: order
+placeOrder: placeOrder
+
+server:
+  port: 5000

@@ -1,0 +1,26 @@
+spring:
+  data:
+    mongodb:
+      database: BillingService
+      port: 27017
+      host: localhost
+      uri: mongodb://localhost:27017/BillingService
+  mail:
+    mail:
+      host: smtp.gmail.com
+      port: 587
+      username: nageshwaran.nithin@divum.in
+      password: vqkv swqh sdbp mmep
+      properties:
+        mail:
+          smtp:
+            auth: true
+            starttls:
+              enable: true
+
+
+#
+#Bill Generation API
+
+Bill: bill
+CreateBill: createBill
